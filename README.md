@@ -1,1 +1,1 @@
-# pulso-civico-dashboard
+Pulso Cívico es un dashboard interactivo desarrollado en Streamlit que permite visualizar, analizar y comparar el desempeño público de una ciudad través de indicadores operativos, percepción ciudadana e índices de alineación. La herramienta está diseñada para ofrecer una visión clara y comparativa de la gestión pública a nivel local y temporal.
