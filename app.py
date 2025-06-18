@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Pulso Cívico",  # Título del navegador
+    page_title="Pulso Score",  # Título del navegador
     layout="wide"
 )
 
@@ -37,7 +37,12 @@ st.markdown("""
 # Logo en esquina superior izquierda
 # -----------------------------
 logo = Image.open("logo.png")
-st.image(logo, width=350)
+st.image(logo, width=450)
+
+# -----------------------------
+# Espacio entre el logo y las pestañas
+# -----------------------------
+st.markdown("<br><br>", unsafe_allow_html=True)
 
 # -----------------------------
 # Cargar datos desde Excel
