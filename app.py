@@ -9,6 +9,20 @@ import pandas as pd
 from PIL import Image
 
 # -----------------------------
+# BLOQUE DE CONTRASEÑA SIMPLE
+# -----------------------------
+def login():
+    st.title("🔒 Acceso restringido")
+    password = st.text_input("Ingresa la contraseña:", type="password")
+    if password == "1234":
+        st.session_state['auth'] = True
+    else:
+        st.stop()
+
+if 'auth' not in st.session_state:
+    login()
+
+# -----------------------------
 # Tipografía Montserrat
 # -----------------------------
 st.markdown("""
